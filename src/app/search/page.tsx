@@ -12,4 +12,8 @@ const Page = async ({ searchParams }: PageProps) => {
   if (Array.isArray(query) || !query) {
     return redirect('/')
   }
+
+  return <div>Page</div>
 }
+
+export default Page
